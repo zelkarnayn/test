@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.long {
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.short {
+    width: 100px;
+    text-align: left;
+    padding: 5px;
+}
+
+.middle {
+    width: 150px;
+    text-align: left;
+    padding: 5px;
+}
+
+.notcomplete {
+    background-color: rgb(255, 64, 64);
+    width: 150px;
+    text-align: left;
+    padding: 5px;
+}
+
+.newtr {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+
+th {
+    color: rgb(194, 195, 196);
+    font-size: 12px;
+}
+
+.notlong {
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: rgb(255, 64, 64);
+}
+
+tr:last-child {
+    border-bottom: none;
+}
